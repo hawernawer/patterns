@@ -1,0 +1,1 @@
+{"virtualbox":{"/srv/www/htdocs":{"guestpath":"/srv/www/htdocs","hostpath":"/data/repos/patterns/htdocs","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/data/repos/patterns","disabled":false}}}

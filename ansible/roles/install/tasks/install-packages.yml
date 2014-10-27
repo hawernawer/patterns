@@ -1,0 +1,13 @@
+---
+- name: Install apt packages
+  apt: pkg={{ item }} state=latest update_cache=yes
+  with_items:
+  - gcc
+  - make
+  - git
+  - libpcre3-dev
+  - nginx
+  - php5-fpm
+  - php5-dev
+  - php5-curl
+  - php5-imagick
